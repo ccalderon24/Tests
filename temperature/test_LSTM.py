@@ -52,6 +52,7 @@ predicted_temperature = sc.inverse_transform(predicted_temperature)
 
 
 #Visualizar los Resultados
+#plt.plot(training_set,color="green",label="Training set")
 plt.plot(real_temperature,color='red', label="Temperatura Real ")
 plt.plot(predicted_temperature,color='blue', label="Temperatura predicha")
 plt.title("prediccion con una RNR del valor de las temperaturas en diferentes dias")
